@@ -75,6 +75,8 @@ span {
   font-weight: 500;
 
   color: hsl(219, 12%, 42%);
+
+  transition: color 0.3s;
 }
 
 .read-text:hover {
@@ -96,6 +98,8 @@ span {
   padding: 15px 10px;
 
   margin-bottom: 15px;
+
+  transition: all 1s;
 }
 
 .unread {
@@ -121,6 +125,8 @@ span {
   margin-right: 5px;
 
   color: hsl(224, 21%, 14%);
+
+  transition: color 0.3s;
 }
 
 .personal-name:hover {
@@ -130,6 +136,8 @@ span {
 
 .my-post-text {
   font-weight: 800;
+
+  transition: color 0.3s;
 }
 
 .my-post-text:hover {
@@ -168,7 +176,9 @@ span {
 
   border-radius: 5px;
 
-  box-shadow: inset 0px 0px 0px 1px hsl(219, 14%, 63%);
+  box-shadow: inset 0px 0px 0px 0.5px hsl(205, 33%, 90%);
+
+  transition: background-color 0.2s;
 }
 
 .message-container:hover {
@@ -308,7 +318,7 @@ span {
 
     border-radius: 5px;
 
-    box-shadow: inset 0px 0px 0px 1px hsl(219, 14%, 63%);
+    box-shadow: inset 0px 0px 0px 0.5px hsl(205, 33%, 90%);
   }
 
   .commented-picture {
