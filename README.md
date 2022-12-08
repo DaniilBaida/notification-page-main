@@ -36,6 +36,6 @@ Users should be able to:
 
 ## Author
 
-- Linked in - [Add your name here](https://www.linkedin.com/in/daniil-baida-689b7b221/)
+- Linked in - [Daniil Baida](https://www.linkedin.com/in/daniil-baida-689b7b221/)
 
 - Frontend Mentor - [@DaniilBaida](https://www.frontendmentor.io/profile/DaniilBaida)
