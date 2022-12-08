@@ -102,9 +102,6 @@ span {
   background-color: hsl(210, 60%, 98%);
 }
 
-.notification {
-}
-
 .notification-content {
   display: flex;
   flex-direction: column;
@@ -257,9 +254,6 @@ span {
 
   .unread {
     background-color: hsl(210, 60%, 98%);
-  }
-
-  .notification {
   }
 
   .notification-content {
