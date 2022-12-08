@@ -26,6 +26,137 @@ span {
   word-break: break-word;
 }
 
+.container {
+  width: 100%;
+  max-width: 600px;
+  min-width: 375px;
+
+  height: 100%;
+
+  padding: 0 30px;
+
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.notifications-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 0px;
+}
+
+.notifications-text {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+  color: hsl(224, 21%, 14%);
+  font-size: 18px;
+}
+
+.notifications-quantity {
+  font-size: 14px;
+
+  padding: 2px 11px;
+
+  background-color: hsl(219, 85%, 26%);
+  color: #fff;
+
+  border-radius: 5px;
+}
+
+.read-text {
+  font-size: 12px;
+  font-weight: 500;
+
+  color: hsl(219, 12%, 42%);
+}
+.notification-item {
+  display: flex;
+
+  color: hsl(219, 12%, 42%);
+
+  gap: 10px;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+
+  padding: 15px 10px;
+
+  margin-bottom: 15px;
+}
+
+.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+
+.notification {
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+
+  word-break: break-word;
+}
+
+.profile-picture {
+  width: 35px;
+  height: 35px;
+}
+
+.personal-name {
+  font-weight: 800;
+  margin-right: 5px;
+
+  color: hsl(224, 21%, 14%);
+}
+
+.my-post-text {
+  font-weight: 800;
+}
+
+.unread-icon {
+  display: inline-block;
+
+  width: 8px;
+  height: 8px;
+
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+
+  margin-left: 5px;
+}
+
+.time-ago {
+  color: hsl(219, 14%, 63%);
+}
+
+.group {
+  font-weight: 800;
+  color: hsl(219, 85%, 26%);
+}
+
+.message-container {
+  margin-top: 10px;
+  padding: 15px;
+
+  border-radius: 5px;
+
+  box-shadow: inset 0px 0px 0px 1px hsl(219, 14%, 63%);
+}
+
+.commented-picture {
+  margin-left: 10px;
+  height: 36px;
+}
+
 @media (max-width: 600px) {
   .container {
     width: 100%;
