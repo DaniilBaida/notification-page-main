@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](./assets/screenshot.jpg)
+![](./assets/screenshot.png)
 
 ### The challenge
 
